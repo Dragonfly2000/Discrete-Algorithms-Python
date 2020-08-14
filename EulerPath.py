@@ -106,6 +106,8 @@ def SideLoops(Vd, path,gT):
 
 V=[]
 gT=input("Enter 1 for undirected graph\n      2 for directed graph:")
+print()
+
 inp=input("Enter vertex, enter 0 when done: ")
 while(inp!='0'):
     V.append(inp)
